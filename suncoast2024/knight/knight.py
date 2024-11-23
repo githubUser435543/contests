@@ -5,7 +5,7 @@
 # and then we can check if those knight positions are attacked by rooks in O(1) using a set
 # this solution has a total time complexity of O(n^2)
 # if you don't know what a set is, it is a datastructure that allows you to
-# insert, delete or find an item in O(1)
+# insert, delete or find if an item is inside O(1)
 # sets are cool
 
 knightOffsets = [(1, 2), (2, 1), (-1, 2), (2, -1), (1, -2), (-2, 1), (-1, -2), (-2, -1)]
